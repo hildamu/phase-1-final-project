@@ -1,12 +1,12 @@
 #searchInput{
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     border: 7px;
 }
 #searchButton{
     padding:10px;
     font-size:medium;
-    background-color: blueviolet;
+    background-color:white;
 }
 #searchResults{
     margin-top: 25px;
