@@ -1,0 +1,13 @@
+#searchInput{
+    padding: 10px;
+    font-size: 20px;
+    border: 7px;
+}
+#searchButton{
+    padding:10px;
+    font-size:medium;
+    background-color: blueviolet;
+}
+#searchResults{
+    margin-top: 25px;
+}
