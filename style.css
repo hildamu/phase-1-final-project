@@ -1,13 +1,57 @@
-#searchInput{
-    padding: 10px;
-    font-size: 15px;
-    border: 7px;
+.container{
+    text-align: left;
+
 }
-#searchButton{
-    padding:10px;
-    font-size:medium;
-    background-color:white;
+
+
+
+
+body{
+    background-image:url('https://www.hdwallpapers.in/download/red_music_pulse_with_black_background_hd_red_aesthetic-HD.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#searchResults{
-    margin-top: 25px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: left;
+}
+
+.search-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#song-result {
+  margin-top: 20px;
 }

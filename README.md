@@ -25,7 +25,7 @@
         text-align: left;
         
     }
-
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DAGonQbpNooU&ved=2ahUKEwjBw7DVw7WFAxWq_7sIHSPQB3IQ78AJegQIEBAB&usg=AOvVaw1XnKA8-OEuYNRa-H0JFwYN
 
     </style>
     
@@ -78,4 +78,22 @@ $(document).ready(function(){
 </html>
 
 
+<h3>EastSyde</h3>
+     <img src ="https://i1.sndcdn.com/artworks-1ipbrQr91LGDWIRz-SNBB3Q-t500x500.jpg"alt="artists image"
+            style="width:250px; height: 150px;">
+            <button id="playButton">Play</button>
+            <audio id ="audioPlayer"src="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.boomplay.com/songs/8077766&ved=2ahUKEwjV5e7pvbWFAxVPhP0HHQT3DqkQFnoECBEQAQ&usg=AOvVaw3tpiieSnBI-OyYq9FZNG1M"></audio>
+        
 
+        
+            <h3>Tyrant</h3>
+     <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhbYZ6h8yNVqvkQshLtP6oflNicwBNw-RV5xgQ40RcA&s"alt="artists image"
+            style="width:250px; height: 150px;">
+            <button id="playButton">Play</button>
+            <audio id ="audioPlayer"src="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DAGonQbpNooU&ved=2ahUKEwjBw7DVw7WFAxWq_7sIHSPQB3IQ78AJegQIEBAB&usg=AOvVaw1XnKA8-OEuYNRa-H0JFwYN"></audio>
+        
+<form class="search-form">
+    <input type="text"id="searchInput"placeholder="Search..."class="search-input">
+    <button id="searchButton">Search</button></form>
+    <div id="searchResults"></div>
+`https://api.spotify.com/
