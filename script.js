@@ -34,6 +34,27 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
+
+  
+    
+   
+function searchSong(query) {
+    
+    
+    if (query.toLowerCase() === 'EastSyde') {
+        return 'EastSyde by Skillibeng';
+    } else if (query.toLowerCase() === 'Tyrant') {
+        return 'Tyrant by Masicka';
+    } else {
+        return 'No results found';
+    }
+}
+
+function displaySearchResults(result) {
+    var searchResultsDiv = document.getElementById('searchResults');
+    searchResultsDiv.innerHTML = result;
+}
+
     
       
         

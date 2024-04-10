@@ -1,0 +1,15 @@
+{
+  "name": "phase-1-final-project",
+  "version": "1.0.0",
+  "description": "## Description: The MusicBrainz application gives a list of various artist as well as their basic information such as:  1. The name of the artist. 2. The music genre that the artist's songs are based on. 3. An image of the artist. 4. A small biography on the artist. 5. Some of the artist's top hits. This application also allows users to search their favourite artists and get some basic information about them.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
