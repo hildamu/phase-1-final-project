@@ -1,0 +1,27 @@
+{
+    "artists":[
+        {
+            "name": "Skillibeng",
+            "genre": "Dancehall"
+        },
+        {
+            
+           "name": "Drake",
+            "genre": "Hip-Pop"
+        },
+        {
+          
+            "name": "Tate McRae",
+            "genre": "Pop"
+        },
+        {
+            "name": "Burnaboy",
+            "genre": "Afrobeats"
+
+        },
+        {
+            "name": "Ybw Smith",
+            "genre": "Arbantone"
+        }
+    ]
+  }

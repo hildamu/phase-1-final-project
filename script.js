@@ -62,4 +62,24 @@ function displayArtist(artist) {
   searchResults.appendChild(artistElement);
 }
 
+function getArtistGenre(){
+  const artistApiLink = "http://musicbrainz.org/ws/2/artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da?fmt=json"
 
+  fetch(artistApiLink)
+  .then(response => {
+    if(response.ok){
+      throw new Error('Failed');
+    }
+
+    return response.json();
+  })
+
+  .then(data => {
+    const genres = data.genres.map(genren);
+    console.log("Genre;", genres);
+  })
+  .catch(error => {
+    console.error('Error:',error);
+  });
+}
+getArtistGenre();
