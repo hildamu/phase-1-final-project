@@ -25,24 +25,18 @@ h1 {
 
 input[type="text"] {
   padding: 10px;
-  border: 1px solid #ccc;
+  border:  solid wheat;
   border-radius: 5px;
   width: 70%;
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  border: none;
+  padding:  10px;
+  background-color: red;
   color: white;
   border-radius: 5px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
 
-#song-result {
-  margin-top: 20px;
-}
+

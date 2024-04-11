@@ -1,3 +1,23 @@
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+const apiLink = 'http://musicbrainz.org/ws/2/artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da?fmt=json';
+fetch(apiLink)
+.then(response => {
+  if(response.ok){
+    throw new Error('Unable to find search results');
+  }
+  return response.json();
+})
+.then(data => {
+  console.log(data)
+})
+.catch(error)
+console.log('Fetch error',error)
+});
+
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
 const serachResults =document.getElementById('searchResults');
@@ -6,7 +26,7 @@ searchButton.addEventListener('click',function(){
     const searchItem = searchInput.value;
     displaySearchResults(searchItem);
 
-})
+
 document.addEventListener("DOMContentLoaded", function() {
     const artists = document.querySelectorAll(".artist");
   
@@ -32,29 +52,13 @@ document.addEventListener("DOMContentLoaded", function() {
         this.style.backgroundColor = "black" ;
       });
     });
-  });
-
-
   
+  });
+});
+
+
     
    
-function searchSong(query) {
-    
-    
-    if (query.toLowerCase() === 'EastSyde') {
-        return 'EastSyde by Skillibeng';
-    } else if (query.toLowerCase() === 'Tyrant') {
-        return 'Tyrant by Masicka';
-    } else {
-        return 'No results found';
-    }
-}
-
-function displaySearchResults(result) {
-    var searchResultsDiv = document.getElementById('searchResults');
-    searchResultsDiv.innerHTML = result;
-}
-
-    
+  
       
         
