@@ -1,27 +1,24 @@
 {
-    "artists":[
+    "artists": [
         {
-            "name": "Skillibeng",
+            "name": "Aidonia",
             "genre": "Dancehall"
         },
         {
-            
-           "name": "Drake",
-            "genre": "Hip-Pop"
+            "name": "Drake",
+            "genre": "Hip-Hop"
         },
         {
-          
-            "name": "Tate McRae",
-            "genre": "Pop"
+            "name": "Rihanna",
+            "genre": "RNB"
         },
         {
             "name": "Burnaboy",
             "genre": "Afrobeats"
-
         },
         {
             "name": "Ybw Smith",
             "genre": "Arbantone"
         }
     ]
-  }
+}

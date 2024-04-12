@@ -1,17 +1,12 @@
 # phase-1-final-project
 # Project Name:MusicBrainz application
 
-## Description: The MusicBrainz application gives a list of various artist as well as their basic information such as: 
-1. The name of the artist.
-2. The music genre that the artist's songs are based on.
-3. An image of the artist.
-4. A small biography on the artist.
-5. Some of the artist's top hits.
-This application also allows users to search their favourite artists and get some basic information about them.
+## Description:
+In this application, one is able to search for an artist whose name is displayed on the db.json. The search results are the name of the artist as well as the genre of music that the artist plays. If the name of the artist one is searching for is not displayed on the db.json, the search results say "Artist not found".
 
 ## Features: 
-1. Display images of artists along with their names and list of songs.
-2. Search for an artist and get basic information about the artist.
+The application also displays some images of artists as well as a brief biography about them and a list of some of their songs.
+
 
 
 ## Technologies used:

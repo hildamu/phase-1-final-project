@@ -1,21 +1,25 @@
-.container{
-    text-align: left;
-}
-
-body{
-    background-image:url('https://i.pinimg.com/originals/57/9c/e5/579ce501b8c6d2a3731b4950cdb60500.webp') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container {
   max-width: 600px;
-  margin: 50px auto;
-  padding: 0 20px;
+  margin: 50px ;
+  padding: 20px;
+  text-align: left; 
+}
+
+body {
+  background-image: url('https://img.freepik.com/free-photo/top-view-white-guitar-arrangement-with-copy-space_23-2148785744.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-  text-align: left;
+  text-align: center;
+  color: red;
+}
+h2 {
+  color: blueviolet;
+}
+h3{
+  color:green
 }
 
 .search-container {
@@ -25,16 +29,16 @@ h1 {
 
 input[type="text"] {
   padding: 10px;
-  border:  solid wheat;
+  border: solid wheat;
   border-radius: 5px;
   width: 70%;
 }
 
 button {
-  padding:  10px;
+  padding: 10px; 
   background-color: red;
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 

@@ -3,134 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MUSICBRAINZ</title>
-    <link rel="stylesheet"type="text/css"href="style.css">
+    <title>Artist Search</title>
+    <link rel ="stylesheet"href="style.css">
 </head>
 <body>
-
-<div class="music-container"></div>
-
-
-    
-    <div class="container"></div>
     <h1>MUSICBRAINZ</h1>
-    
-    <style>
-        h1 {
-        color: red;
-        text-align: center;
-    }
-    h3 {
-        color: blueviolet;
-        text-align: left;
-    }
-    h2 {
-        color: whitesmoke;
-        text-align: left;
-        
-    }
-    h5{
-         color:antiquewhite;
-         text-align:left
-    }
-    h4{
-        color:greenyellow ;
-        text-decoration: wavy;
-        text-align: left;
-    }
-    li{
-        color:antiquewhite;
-        text-decoration: solid;
-    }
-    </style>
-    <h2>Get information on all your favourite artists:</h2>
-    <input type="text"id="searchInput"placeholder="Search...">
+    <input type="text" id="searchInput" placeholder="Enter artist name">
     <button id="searchButton">Search</button>
+    <div id="searchResults"></div> 
+        <h2>Top picks only for you:</h2>
+
+        <h3>1. Skillibeng-Dancehall</h3>
+        <div class="artists">
+            <div class="artist" id="number1">
+                <img src="https://www.dancehallmag.com/assets/2021/09/Skillibeng_Photo_By_Gladstone_Taylor.jpg" alt="number1" width="300px" height="200px">
+                <h5>The popular artist is originally known as Emwah Wamington. He is from Jamaica and is noted world-wide for his work with Vybz Kartel, Nicki Minaj and the like.</h5>
+                <h4>Some of his top hits are:</h4>
+                <ul>
+                    <li>Whap Whap</li>
+                    <li>EastSyde</li>
+                    <li>Coke</li>
+                    <li>Crocodile Teeth</li>
+                    <li>Deja Vu</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>2. Masicka-Dancehall</h3>
+        <div class="artists">
+            <div class="artist" id="number2">
+                <img src="https://yardhype.com/wp-content/uploads/2023/11/masicka-2023.jpg" alt="number2" width="300px" height="200px">
+                <h5>Masicka is a multi-talented, DJ, singer and song writer on the verge of breaking into the tightly knit circuit of the Jamaican dancehall scene.</h5>
+                <h4>Some of his top hits are:</h4>
+                <ul>
+                    <li>Tyrant</li>
+                    <li>Hit and Run</li>
+                    <li>History</li>
+                    <li>Fight for us</li>
+                    <li>Most Wanted</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>3. Tate McRae-Pop</h3>
+        <div class="artists">
+            <div class="artist" id="number3">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLvs6WP_u6lL1fF6o2cuu5-T0NL905g67W6zh-_0OJD8qYZmM4" alt="number3" width="300px" height="200px">
+                <h5>Tate Rosner McRae is a canadian singer, song writer, dancer and former actress Her major genre is pop where she has dropped various bangers.</h5>
+                <h4>Some of her top hits are:</h4>
+                <ul>
+                    <li>Greedy</li>
+                    <li>Exes</li>
+                    <li>Run for the hills</li>
+                    <li>You broke me first</li>
+                    <li>Distant</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>4. Joeboy-Afrobeats</h3>
+        <div class="artists">
+            <div class="artist" id="number4">
+                <img src="https://netstorage-legit.akamaized.net/images/da47b5b010e2aebb.jpg?imwidth=900" alt="number4" width="300px" height="200px">
+                <h5>Joseph Akinwale is a Nigerian singer and song writer, currently signed to Warner Music Africa in partnership eith his record label Young Legend.</h5>
+                <h4>Some of his top hits are:</h4>
+                <ul>
+                    <li>Sip</li>
+                    <li>Nobody</li>
+                    <li>Body and soul</li>
+                    <li>Beginning</li>
+                    <li>Don't call me back</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>5. SZA-Pop</h3>
+        <div class="artists">
+            <div class="artist" id="number5">
+                <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTR8-TVsrqdiu4pJZgGBGTNDid5uRx5h8cIsp2Da-jQ4TrUmAj10PWTcsRA7RSv0bloj8C0e6zlAvC57RA" alt="number5" width="300px" height="200px">
+                <h5>Solana Imani Rowe is an American singer-songwriter.She first gained recognition through her self-released extended plays which helped her become the first female artist to sign with Top Dawg Entertainment.</h5>
+                <h4>Some of her top hits are:</h4>
+                <ul>
+                    <li>Snooze</li>
+                    <li>Kill Bill</li>
+                    <li>Good Days</li>
+                    <li>Love Galore</li>
+                    <li>Broken Clocks</li>
+                </ul>
+            </div>
+        </div>
     </div>
-            <div id="searchResults"></div>
+</div>
 
-            <h2>Top picks only for you:</h2>
+<script src="script.js"></script>
 
-            <h3>1.Skillibeng-Dancehall</h3>
-
-
-    <div class="artists">
-    <div class="artist" id="number1">
-        <img src ="https://www.dancehallmag.com/assets/2021/09/Skillibeng_Photo_By_Gladstone_Taylor.jpg"alt="number1"width="300px" height="200px">
-        <h5>The popular artist is originally known as Emwah Wamington. He is from Jamaica and is noted world-wide for his work with Vybz Kartel, Nicki Minaj and the like.</h5>
-    <h4>Some of his top hits are:</h4>
-    <ul>
-        <li>Whap Whap</li>
-        <li>EastSyde</li>
-        <li>Coke</li>
-        <li>Crocodile Teeth</li>
-        <li>Deja Vu</li>
-    </ul>
-
-<h3>2.Masicka-Dancehall</h3>
-    <div class="artist" id="number2">
-        <img src ="https://yardhype.com/wp-content/uploads/2023/11/masicka-2023.jpg"alt="number2"width="300px" height="200px">
-        <h5>Masicka is a multi-talented, DJ, singer and song writer on the verge of breaking into the tightly knit circuit of the Jamaican dancehall scene.</h5>
-    <h4>Some of his top hits are:</h4>
-    <ul>
-        <li>Tyrant</li>
-        <li>Hit and Run</li>
-        <li>History</li>
-        <li>Fight for us</li>
-        <li>Most Wanted</li>
-    </ul>
-<h3>3.Tate McRae-Pop</h3>
-    <div class="artist" id="number3">
-        <img src ="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLvs6WP_u6lL1fF6o2cuu5-T0NL905g67W6zh-_0OJD8qYZmM4"alt="number3"width="300px" height="200px">
-        <h5>Tate Rosner McRae is a canadian singer, song writer, dancer and former actress Her major genre is pop where she has dropped various bangers.</h5>
-    <h4>Some of her top hits are:</h4>
-    <ul>
-        <li>Greedy</li>
-        <li>Exes</li>
-        <li>Run for the hills</li>
-        <li>You broke me first</li>
-        <li>Distant</li>
-    </ul>
-<h3>3.Joeboy-Afrobeats</h3>
-    <div class="artist" id="number4">
-        <img src ="https://netstorage-legit.akamaized.net/images/da47b5b010e2aebb.jpg?imwidth=900"alt="number4"width="300px" height="200px">
-        <h5>Joseph Akinwale is a Nigerian singer and song writer, currently signed to Warner Music Africa in partnership eith his record label Young Legend.</h5>
-    <h4>Some of his top hits are:</h4>
-    <ul>
-        <li>Sip</li>
-        <li>Nobody</li>
-        <li>Body and soul</li>
-        <li>Beginning</li>
-        <li>Don't call me back</li>
-    </ul>
-<h3>4.SZA-Pop</h3>
-    <div class="artist" id="number5">
-        <img src ="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTR8-TVsrqdiu4pJZgGBGTNDid5uRx5h8cIsp2Da-jQ4TrUmAj10PWTcsRA7RSv0bloj8C0e6zlAvC57RA"alt="number5"width="300px" height="200px">
-        <h5>Solana Imani Rowe is an American singer-songwriter.She first gained recognition through her self-released extended plays which helped her become the first female artist to sign with Top Dawg Entertainment.</h5>
-    <h4>Some of her top hits are:</h4>
-    <ul>
-        <li>Snooze</li>
-        <li>Kill Bill</li>
-        <li>Good Days</li>
-        <li>Love Galore</li>
-        <li>Broken Clocks</li>
-    </ul>
-
-
-
-
-    
-    
-
-
-
-    <script src="script.js"></script>
-    
-    
 </body>
-</html>
-
-
+</html> 
 
 
 
